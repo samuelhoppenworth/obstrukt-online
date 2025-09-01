@@ -2,7 +2,7 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
-import GameManager from './GameManager.js';
+import GameManager from '../server/GameManager.js';
 // Corrected import path to use the more robust, shared gameConfig
 import { ALL_PLAYERS } from '../client/src/config/gameConfig.js'; 
 

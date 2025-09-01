@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/socket.io/:path*",
-      "destination": "server/server"
+      "destination": "/api/server"
     }
   ]
 }

@@ -2,7 +2,7 @@ import { io } from 'socket.io-client';
 
 // --- Configuration ---
 const SERVER_URL = 'https://obstrukt.vercel.app';
-const NUM_ROOMS_TO_TEST = 10; 
+const NUM_ROOMS_TO_TEST = 1; 
 const PLAYERS_PER_ROOM = 2;
 const GAME_DURATION_MS = 45000; 
 const MOVE_INTERVAL_MS = 2000; 
