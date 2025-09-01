@@ -2,13 +2,14 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
-import GameManager from '../server/GameManager.js';
-// Corrected import path to use the more robust, shared gameConfig
+import GameManager from '../server/GameManager.js'; 
 import { ALL_PLAYERS } from '../client/src/config/gameConfig.js'; 
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server, { cors: { origin: "*", methods: ["GET", "POST"] } });
+const io = new Server(server, { 
+    cors: { origin: "*", methods: ["GET", "POST"] } 
+});
 
 const matchmakingQueues = {
     '2': [],
@@ -171,5 +172,4 @@ io.on('connection', (socket) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
+export default server;
