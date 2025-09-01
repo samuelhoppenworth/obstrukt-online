@@ -10,6 +10,7 @@
     "dev:client": "vite",
     "dev:server": "nodemon server/server.js",
     "build": "vite build",
+    "benchmark": "node benchmark/benchmark.js",
     "postinstall": "npm run build"
   },
   "author": "",
