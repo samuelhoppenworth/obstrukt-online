@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b><a href="https://obstrukt.vercel.app/">Play Obstrukt in your browser</a></b> – no download necessary.
+  <b><a href="https://obstrukt.vercel.app/">Play Obstrukt</a></b>
 </p>
 
 ---
